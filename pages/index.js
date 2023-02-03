@@ -146,10 +146,7 @@ export default function Home() {
               <div>
                 <ul className="social-icons-container">
                   <li>
-                    <a
-                      target="_blank"
-                      href="https://www.facebook.com/Hyperlink-infosystem-140449209446270/"
-                    >
+                    <a href="https://www.facebook.com/Hyperlink-infosystem-140449209446270/">
                       <img
                         src="https://www.hyperlinkinfosystem.com/assets/frontend_assets/img/fb-icon.svg"
                         alt="facebook"
@@ -157,7 +154,7 @@ export default function Home() {
                     </a>
                   </li>
                   <li>
-                    <a target="_blank" href="https://twitter.com/hyperlinkinfo">
+                    <a href="https://twitter.com/hyperlinkinfo">
                       <img
                         src="https://www.hyperlinkinfosystem.com/assets/frontend_assets/img/tw-icon.svg"
                         alt="twitter"
@@ -165,10 +162,7 @@ export default function Home() {
                     </a>
                   </li>
                   <li>
-                    <a
-                      target="_blank"
-                      href="https://www.instagram.com/hyperlink_infosystem/"
-                    >
+                    <a href="https://www.instagram.com/hyperlink_infosystem/">
                       <img
                         src="https://www.hyperlinkinfosystem.com/assets/frontend_assets/img/insta-icon.svg"
                         alt="instagram"
@@ -176,10 +170,7 @@ export default function Home() {
                     </a>
                   </li>
                   <li>
-                    <a
-                      target="_blank"
-                      href="https://www.linkedin.com/company/hyperlinkinfosystem"
-                    >
+                    <a href="https://www.linkedin.com/company/hyperlinkinfosystem">
                       <img
                         src="https://www.hyperlinkinfosystem.com/assets/frontend_assets/img/in-icon.svg"
                         alt="linkedin"
@@ -187,10 +178,7 @@ export default function Home() {
                     </a>
                   </li>
                   <li>
-                    <a
-                      target="_blank"
-                      href="https://www.youtube.com/channel/UC1-3xlMsMK-47ew6WfbLqsQ"
-                    >
+                    <a href="https://www.youtube.com/channel/UC1-3xlMsMK-47ew6WfbLqsQ">
                       <img
                         src="https://www.hyperlinkinfosystem.com/assets/frontend_assets/img/yt-icon.svg"
                         alt="youtube"
@@ -198,10 +186,7 @@ export default function Home() {
                     </a>
                   </li>
                   <li>
-                    <a
-                      target="_blank"
-                      href="https://topappdevelopmentcompanies.com"
-                    >
+                    <a href="https://topappdevelopmentcompanies.com">
                       <img
                         src="https://www.hyperlinkinfosystem.com/assets/frontend_assets/img/tp-icon.svg"
                         height="35"
