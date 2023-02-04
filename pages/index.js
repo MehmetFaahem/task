@@ -1,6 +1,49 @@
 import Head from "next/head";
 import Image from "next/image";
 
+const Datas = [
+  {
+    imgone:
+      "https://www.hyperlinkinfosystem.com/assets/frontend_assets/img/india.svg",
+    imgtwo:
+      "https://www.hyperlinkinfosystem.com/assets/frontend_assets/img/ind-flag.svg",
+    title: "INDIA (HQ)",
+    subtitle:
+      "C-106/B, Ganesh Meridian, Opp. Gujarat High Court, S. G. Highway, Ahmedabad, Gujarat, 380061",
+    phone: "+91 8000-161161",
+  },
+  {
+    imgone:
+      "https://www.hyperlinkinfosystem.com/assets/frontend_assets/img/mumbai.svg",
+    imgtwo:
+      "https://www.hyperlinkinfosystem.com/assets/frontend_assets/img/ind-flag.svg",
+    title: "INDIA (HQ)",
+    subtitle:
+      "Level 8, Vibgyor Towers, G Block, C62 Bandra Kurla Complex, Mumbai 400 098",
+    phone: "+91 8000-161161",
+  },
+  {
+    imgone:
+      "https://www.hyperlinkinfosystem.com/assets/frontend_assets/img/usa.svg",
+    imgtwo:
+      "https://www.hyperlinkinfosystem.com/assets/frontend_assets/img/us-flag.svg",
+    title: "USA OFFICE",
+    subtitle:
+      "One World Trade Center, 285 Fulton Street suite 8500, New York, NY 10007, United States.",
+    phone: "+1 309 791 4105",
+  },
+  {
+    imgone:
+      "https://www.hyperlinkinfosystem.com/assets/frontend_assets/img/uk.svg",
+    imgtwo:
+      "https://www.hyperlinkinfosystem.com/assets/frontend_assets/img/uk-flag.svg",
+    title: "UK OFFICE",
+    subtitle:
+      "Level 30, The Leadenhall Building, 122 Leadenhall Street, London EC3V 4AB",
+    phone: "+44 20 8133 8639",
+  },
+];
+
 export default function Home() {
   return (
     <>
@@ -690,6 +733,59 @@ export default function Home() {
                       Salesforce Implementation
                     </a>
                   </div>
+                </div>
+              </div>
+              <div
+                style={{
+                  gridColumn: "1/span 3",
+                }}
+                className="foot-part"
+              >
+                <h1 className="shader">Locate Us</h1>
+                <h2>Locate Us</h2>
+                <div
+                  style={{
+                    display: "flex",
+                    placeItems: "center",
+                  }}
+                >
+                  {Datas.map((data, index) => (
+                    <div className="data-container" key={index}>
+                      <img height="100px" src={data.imgone} alt="india" />
+                      <div
+                        style={{
+                          marginLeft: "20px",
+                        }}
+                      >
+                        <h6
+                          style={{
+                            fontSize: "16px",
+                          }}
+                        >
+                          <img width="22px" src={data.imgtwo} alt="india" />{" "}
+                          {data.title}
+                        </h6>
+                        <p
+                          style={{
+                            width: "160px",
+                            fontSize: "12px",
+                            color: "#ccc",
+                            marginTop: "5px",
+                            lineHeight: "18px",
+                          }}
+                        >
+                          {data.subtitle}
+                        </p>
+                        <span
+                          style={{
+                            fontSize: "13px",
+                          }}
+                        >
+                          {data.phone}
+                        </span>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
